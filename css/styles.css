@@ -1,0 +1,141 @@
+body{
+    background-color: #c6c6c6;
+    font-family: 'Roboto', sans-serif;
+    font-size:24px;
+}
+
+.wrapper{
+    width:980px;
+    margin:0 auto;
+}
+
+header {
+    width:100%;
+    min-height:590px;
+    margin: 0;
+    background-color: #7fff91;
+}
+
+.bg_header{
+    margin:0;
+    padding: 0;
+    width:100%;
+    min-height:590px;
+    position: absolute;
+    background: rgba(0, 0, 0, 0) url("../img/bgh1.png") no-repeat scroll -240px 0 / 1910px auto;
+}
+
+.nav{
+    background: #0798c7 none repeat scroll 0 0;
+    opacity:0.8;
+    width:100%;
+    height: 70px;
+    font-size: 17px;
+    color: #fff;
+}
+
+ul{
+    padding:0;
+    margin: 0;
+    list-style-type: none;
+}
+
+li{
+    margin: 0;
+}
+
+header nav{
+    margin:0;
+    width:100%;
+    height:70px;
+
+}
+
+header nav ul, .lang ul{
+    display: flex;
+    align-items:center;
+}
+
+header nav ul{
+    justify-content:space-around;
+    height:70px;
+}
+
+.lang{
+    font-size: 14px;
+    position: relative;
+    text-transform: uppercase;
+    float: right;
+    margin: 13px 0 0;
+    width: 200px;
+}
+
+.lang ul{
+    justify-content: flex-end;
+    margin-right: 9px;
+}
+
+.lang ul li{
+    margin:0 7px;
+}
+
+.lang ul li a{
+    color: #b2c6ce;
+    text-decoration: none;
+}
+
+.lang ul li a:hover{
+    color: #41a6ce;
+}
+
+.logo{
+    background: url("../img/logo.png") no-repeat 0 0 / contain;
+    height: 223px;
+    width: 229px;
+    margin: 75px 0 0 17px;
+    position: relative;
+}
+
+.cities{
+    position: absolute;
+    height: 400px;
+    left: 830px;
+    top: 130px;
+}
+
+[class^=city]{
+    left: 8px;
+    margin: 0 0 0 88px;
+    padding: 0 0 0 66px;
+    text-transform: uppercase;
+    height:65px;
+    width: 600px;
+    position: relative;
+}
+
+.city1{
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#d0e4a9+0,d0e4a9+5,cfe3a5+6,c7df8f+11,b6d55f+18,aed048+22,a9cd39+26,a9cd39+30,accf42+32,b3d356+36,bdda74+39,c8e093+42,cbe29b+45,dceccc+64,e7f3ec+79,ecf6fb+89,ecf6fb+100&0.06+0,1+0,1+100 */
+    background: -moz-linear-gradient(left, rgba(208,228,169,1) 0%, rgba(208,228,169,1) 5%, rgba(207,227,165,1) 6%, rgba(199,223,143,1) 11%, rgba(182,213,95,1) 18%, rgba(174,208,72,1) 22%, rgba(169,205,57,1) 26%, rgba(169,205,57,1) 30%, rgba(172,207,66,1) 32%, rgba(179,211,86,1) 36%, rgba(189,218,116,1) 39%, rgba(200,224,147,1) 42%, rgba(203,226,155,1) 45%, rgba(220,236,204,1) 64%, rgba(231,243,236,1) 79%, rgba(236,246,251,1) 89%, rgba(236,246,251,1) 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(left, rgba(208,228,169,1) 0%,rgba(208,228,169,1) 5%,rgba(207,227,165,1) 6%,rgba(199,223,143,1) 11%,rgba(182,213,95,1) 18%,rgba(174,208,72,1) 22%,rgba(169,205,57,1) 26%,rgba(169,205,57,1) 30%,rgba(172,207,66,1) 32%,rgba(179,211,86,1) 36%,rgba(189,218,116,1) 39%,rgba(200,224,147,1) 42%,rgba(203,226,155,1) 45%,rgba(220,236,204,1) 64%,rgba(231,243,236,1) 79%,rgba(236,246,251,1) 89%,rgba(236,246,251,1) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to right, rgba(208,228,169,1) 0%,rgba(208,228,169,1) 5%,rgba(207,227,165,1) 6%,rgba(199,223,143,1) 11%,rgba(182,213,95,1) 18%,rgba(174,208,72,1) 22%,rgba(169,205,57,1) 26%,rgba(169,205,57,1) 30%,rgba(172,207,66,1) 32%,rgba(179,211,86,1) 36%,rgba(189,218,116,1) 39%,rgba(200,224,147,1) 42%,rgba(203,226,155,1) 45%,rgba(220,236,204,1) 64%,rgba(231,243,236,1) 79%,rgba(236,246,251,1) 89%,rgba(236,246,251,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d0e4a9', endColorstr='#ecf6fb',GradientType=1 ); /* IE6-9 */
+    top: 35px;
+}
+
+.city2{
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#7ee5f2+0,7ee5f2+5,76e4f1+7,60e0f0+11,25d8eb+19,0fd4ea+23,06d3e9+26,06d3e9+30,12d5ea+32,26d8ec+35,47ddee+38,70e3f1+42,74e4f2+43,b6eef7+64,ddf4fa+80,ecf6fb+89,ecf6fb+100&0.06+0,1+0,1+100 */
+    background: -moz-linear-gradient(left, rgba(126,229,242,1) 0%, rgba(126,229,242,1) 5%, rgba(118,228,241,1) 7%, rgba(96,224,240,1) 11%, rgba(37,216,235,1) 19%, rgba(15,212,234,1) 23%, rgba(6,211,233,1) 26%, rgba(6,211,233,1) 30%, rgba(18,213,234,1) 32%, rgba(38,216,236,1) 35%, rgba(71,221,238,1) 38%, rgba(112,227,241,1) 42%, rgba(116,228,242,1) 43%, rgba(182,238,247,1) 64%, rgba(221,244,250,1) 80%, rgba(236,246,251,1) 89%, rgba(236,246,251,1) 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(left, rgba(126,229,242,1) 0%,rgba(126,229,242,1) 5%,rgba(118,228,241,1) 7%,rgba(96,224,240,1) 11%,rgba(37,216,235,1) 19%,rgba(15,212,234,1) 23%,rgba(6,211,233,1) 26%,rgba(6,211,233,1) 30%,rgba(18,213,234,1) 32%,rgba(38,216,236,1) 35%,rgba(71,221,238,1) 38%,rgba(112,227,241,1) 42%,rgba(116,228,242,1) 43%,rgba(182,238,247,1) 64%,rgba(221,244,250,1) 80%,rgba(236,246,251,1) 89%,rgba(236,246,251,1) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to right, rgba(126,229,242,1) 0%,rgba(126,229,242,1) 5%,rgba(118,228,241,1) 7%,rgba(96,224,240,1) 11%,rgba(37,216,235,1) 19%,rgba(15,212,234,1) 23%,rgba(6,211,233,1) 26%,rgba(6,211,233,1) 30%,rgba(18,213,234,1) 32%,rgba(38,216,236,1) 35%,rgba(71,221,238,1) 38%,rgba(112,227,241,1) 42%,rgba(116,228,242,1) 43%,rgba(182,238,247,1) 64%,rgba(221,244,250,1) 80%,rgba(236,246,251,1) 89%,rgba(236,246,251,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7ee5f2', endColorstr='#ecf6fb',GradientType=1 ); /* IE6-9 */
+    top: 79px;
+}
+
+.cities p{
+    color: #fff;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 16px 0 0;
+}
+
+
