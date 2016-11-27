@@ -9,7 +9,7 @@ $pdo_prepare->execute($values);
 
 echo'
     <script type="text/javascript">
-        location="http://php213/pdo/index.php";
+        location="http://awesome.dev/awesome/seotm/php213/pdo/index.php";
     </script>
 ';
 

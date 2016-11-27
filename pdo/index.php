@@ -1,6 +1,7 @@
 <html>
 <head>
-<style>
+    <meta charset="UTF-8">
+    <style>
     table, tr, td, th{
         border:1px solid black;
         border-collapse: collapse;
@@ -34,11 +35,13 @@ printf("<tr>
         <td>%s</td>
             <td>
                 <form action='del.php' method='post'>
-                    <input type='hidden' value='%s'>
+                    <input type='hidden' name='del' value='%s'>
                     <input type='submit' value='DEL'>
                 </form>
             </td>
-    </tr>", $row['cnum'], $row['cname'], $row['city'], $row['rating']), $row['cnum'];}
+    </tr>",
+    $row['cnum'], $row['cname'], $row['city'], $row['rating'], $row['cnum'])
+;}
 ?>
 </table>
 </br>
