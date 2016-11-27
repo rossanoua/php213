@@ -24,6 +24,7 @@ echo "
         <th>ИМЯ</th>
         <th>ГОРОД</th>
         <th>РЕЙТИНГ</th>
+        <th>УДАЛИТЬ ЗАПИСЬ ИЗ БАЗЫ</th>
     </tr>";
 while($row = $from_base->fetch()){
 //    echo "<tr><td>".$row['cnum']."</td><td>".$row['cname']."</td><td>".$row['city']."</td><td>".$row['rating']."</td><td>". "<form action='del.php'><input type='hidden' value=''><input type='submit'></form>" ."</td></tr>";
