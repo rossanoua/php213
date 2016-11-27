@@ -5,7 +5,7 @@ require_once 'pdo.php';
 $to_base = "INSERT INTO customers (cname, city, rating, snum) VALUES ('".$_POST['cname']."','".$_POST['city']."',".$_POST['rating'].",".$_POST['snum'].")";
 //echo $to_base;
 $pdo_prepare = $pdo->prepare($to_base);
-$pdo_prepare->execute($values);
+$pdo_prepare->execute();
 
 echo'
     <script type="text/javascript">

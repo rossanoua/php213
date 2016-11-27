@@ -6,7 +6,7 @@ $index = $_POST['del'];
 $del = "DELETE FROM `customers` WHERE ((`cnum` =" . $index. "))";
 
 $pdo_prepare = $pdo->prepare($del);
-$pdo_prepare->execute($values);
+$pdo_prepare->execute();
 
 echo'
     <script type="text/javascript">
